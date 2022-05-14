@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(58, 57, 57);
+}
+
+.content{
+    margin: 30px 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.controls_text{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.images img{
+    width: 100%;
+    height: 580px;
+    border-radius: 10px;
+}
+
+.btm-sliders{
+    display: flex;
+    justify-content: center;
+}
+
+.btm-sliders span{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(1, 7, 100);
+    border: 1px solid rgb(1, 7, 100);
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.text p{
+    font-size: 24px;
+}
